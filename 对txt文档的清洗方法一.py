@@ -2,7 +2,7 @@ import re
 f=open('A卷.txt','r',encoding='utf-8')
 txt=''
 txt=f.read()
-#针对wold中的填空题的特殊情况进行处理
+#针对word中的填空题的特殊情况进行处理
 for i in range(4):
     findchr='★'+str(i+1)+'★'
     start,end=0,0
